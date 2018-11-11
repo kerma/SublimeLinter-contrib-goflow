@@ -1,0 +1,10 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "gotest": {
+            "working_dir": "${folder:$file_path}",
+            "lint_mode": "save"
+        }
+    }
+}
+
