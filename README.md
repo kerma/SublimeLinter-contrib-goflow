@@ -1,8 +1,6 @@
 SublimeLinter-contrib-goflow
 ============================
 
-[![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-__linter__.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-__linter__)
-
 This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to `go fmt` and `go test`. It will be used with files that have the “source.go” syntax.
 
 It's pretty much an abuse of the wonderful SublimeLinter framework to run `go fmt` and `go test` once you save a file.
