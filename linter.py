@@ -8,7 +8,6 @@ from SublimeLinter.lint.linter import get_view_context
 
 
 class GoFmt(Linter):
-    """Provides an interface to gometalinter."""
 
     defaults = {'selector': 'source.go'}
     cmd = ['gofmt', '-w', '${file}']
@@ -17,7 +16,6 @@ class GoFmt(Linter):
 
 
 class GoTest(Linter):
-    """Provides an interface to gometalinter."""
 
     defaults = {'selector': 'source.go'}
     cmd = ['go', 'test']
